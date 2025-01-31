@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTituloEditarConcesionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Concesionario"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etNombreConcesionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etDireccionConcesionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etTelefonoConcesionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/cbEsFranquicia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es una franquicia"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnGuardarConcesionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
