@@ -1,0 +1,39 @@
+package com.example.myapplication1.models
+
+data class BConcesionario(
+    val id: Int,
+    var nombre: String,
+    var direccion: String,
+    var telefono: String,
+    var esFranquicia: Boolean,
+    val vehiculos: MutableList<BVehiculo>,
+    var latitud: Double,
+    var longitud: Double,
+)
+
+/*
+BYD		-0.1632803, -78.464096
+CHANGAN 	-0.1635312, -78.464284
+SUSUKI		-0.1632158, -78.464824
+TOYOTA		-0.1636715, -78.464553
+FORD		-0.1648534, -78.465616
+AMBACAR		-0.1645256, -78.465801
+KIA		-0.1646863, -78.465317
+SINOTRUCK	-0.1653890, -78.466772
+CHEVROLET	-0.1655568, -78.467906
+GWM		-0.1662764, -78.468735
+MG		-0.1660568, -78.469149
+JAC		-0.1660226, -78.469362
+AUDI		-0.1679478, -78.471424
+VOLKSWAGEN	-0.1680397, -78.471605
+GEELY		-0.1685566, -78.472681
+SUBARU		-0.1686102, -78.472962
+MAZDA		-0.1683206, -78.473973
+CHERY		-0.1683662, -78.474176
+DONGFENG	-0.1684544, -78.474361
+RAM		-0.1685241, -78.474584
+DODGE		-0.1685241, -78.474584
+JEEP		-0.1685241, -78.474584
+FIAT		-0.1685241, -78.474584
+NISSAN		-0.1690074, -78.475055
+*/

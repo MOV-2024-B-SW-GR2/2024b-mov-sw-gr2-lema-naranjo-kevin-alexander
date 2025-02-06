@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Título de la actividad -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Vehículo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Campo de texto para la marca del vehículo -->
+    <EditText
+        android:id="@+id/etMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <!-- Campo de texto para el modelo del vehículo -->
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <!-- Campo de texto para el año del vehículo -->
+    <EditText
+        android:id="@+id/etAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <!-- Campo de texto para el precio del vehículo -->
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <!-- Botón para guardar el vehículo -->
+    <Button
+        android:id="@+id/btnGuardarVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Vehículo"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"/>
+
+</LinearLayout>
